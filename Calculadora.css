@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210717/pngtree-blog-pattern-texture-background-image_745736.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Poetsen One", sans-serif;
+}
+.Link{
+    padding: 0 5px;
+    color: whitesmoke;
+}
+.link:hover{
+    color: whitesmoke;
+}
+.Link:visited{
+    color: whitesmoke
+}
+.Calculadora{
+    display: grid;
+    background-color: #000;
+    margin: auto;
+    width: 310px;
+    height: 550px;
+    margin-top: 20px;
+    border-radius: 25px;
+    grid-template-rows: 40% 60%;
+}
+.Hija-1{
+    display: grid;
+}
+.Hija-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.boton{
+    background-color: #1f1c1e;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.Cero{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 120px;
+    margin-left: 190px;
+}
+.item{
+    grid-column: span 2;
+}
+.Entre, .Por, .Menos, .Mas, .Igual{
+    background-color: #fa8d1a;
+}
+.AC, .MenosyMas, .Percent{
+    background-color: #9D959A;
+}
